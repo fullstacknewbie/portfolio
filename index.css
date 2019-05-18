@@ -1,3 +1,14 @@
+html {
+    font-family: sans-serif;
+    background-color: rgb(114,114,114);
+    background-image: linear-gradient(darkgray 30%, white 50%, white 20%);
+    min-height: 100%;
+}
+
+main {
+
+}
+
 #headshot {
     float: left;
 }
