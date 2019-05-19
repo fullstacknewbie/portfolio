@@ -1,34 +1,54 @@
 html {
-    font-family: sans-serif;
-    background-color: rgb(114,114,114);
-    background-image: linear-gradient(darkgray 30%, white 50%, white 20%);
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(189, 189, 189);
+    background-color: rgb(39, 39, 39);
     min-height: 100%;
 }
 
 main {
-
+    text-align: center;
+    margin-top: 85px;
 }
 
 #headshot {
+    margin-top: 50px;
+    height: 125px;
     float: left;
+    margin-left: 15px;
+    border-radius: 50%;
 }
 
 header {
+    font-family: Helvetica;
     text-align: center;
     font-size: 20px;
-    margin-top: 50px;
-    padding-top: 40px;
 }
 
-h1 {
+#name {
+    font-size: 30px;
+}
+
+main a {
     display: block;
+    margin-top: 10px;
+    padding: 2px;
+    color:rgb(189, 189, 189);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#aboutMe {
+    font-family: "Open Sans Condensed", sans-serif;
+    text-align: left;
+}
+
+footer {
     margin-top: 100px;
-    font-size: 25px;
-    text-align: center;
+    margin-right: 15%;
 }
 
-button {
-    display: block;
-    padding: 30px;
-    margin: auto;
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
 }
