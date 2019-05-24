@@ -56,12 +56,23 @@ ul {
     justify-content: space-evenly;
 }
 
+div {
+    text-align: left;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #mywork {
     display: block;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
     padding: 0px;
+    max-width: 300px;
 }
 
 @media screen and (min-width: 576px) {
@@ -81,7 +92,13 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
-
+    img {
+        float: right;
+        padding-top: 20px;
+    }
+    #mywork {
+        max-width: 768px;
+    }
 }
 
 @media screen and (min-width: 992px) {
