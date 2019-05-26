@@ -3,7 +3,6 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(189, 189, 189);
     background-color: rgb(39, 39, 39);
-    min-height: 100%;
 }
 
 main {
@@ -61,7 +60,7 @@ div {
 }
 
 img { 
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     display: block;
     margin-left: auto;
@@ -103,19 +102,51 @@ h3 {
 }
 
 @media screen and (min-width: 768px) {
-    img {
+    /*img {
         float: right;
         padding-top: 20px;
+    }*/
+    /*#mywork {
+        max-width: 1040px;
+    }*/
+    #headshot {
+        height: 250px;
+        float: left;
+        margin-left: 10%;
+        border-radius: 50%;
+        margin-top: 10%;
     }
-    #mywork {
-        max-width: 768px;
+    header {
+        font-family: Helvetica;
+        text-align: center;
+        font-size: 50px;
+        padding: 10px;
+        margin-bottom: 15%;
+    }
+    #name {
+        font-size: 50px
+    }
+    footer {
+        margin-top: 100px;
+        margin-right: 10%;
+        margin-left: auto;
+    }
+    main {
+        font-size: 30px;
     }
 }
 
-@media screen and (min-width: 992px) {
-
-}
-
-@media screen and (min-width: 1200px) {
-
+@media screen and (min-width: 1024px) {
+    header {
+        font-family: Helvetica;
+        text-align: center;
+        font-size: 20px;
+        padding: 30px;
+    }
+    footer {
+        margin-right: 5%;
+    }
+    section {
+        text-align: center;
+    }
 }
